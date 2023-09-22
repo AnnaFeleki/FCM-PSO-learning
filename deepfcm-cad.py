@@ -419,7 +419,7 @@ print(spec_deviation)
 
 print("\n Precision")
 print(prec)
-print(np.mean(prec)*100)
+print(np.mean(prec))
 prec_deviation = calculate_deviation(prec)
 print("prec_deviation")
 print(prec_deviation)
